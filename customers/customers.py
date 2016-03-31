@@ -39,7 +39,7 @@ class Intercom(object):
 	# from Dublin office.
 	def match_customers(self,filename, distance):
 		"""Returns a dict with the names and user ids of the matching customers, within
-		distance (km) from Dublin office, read from the provided text file(json encoded).
+		distance (km) from Dublin office, read from the provided text file(json formatted).
 		"""
 		try:
 			f = open(filename, 'rU')
